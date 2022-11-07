@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1D2A35;
+}
+/* -------navbar work start----- */
+i,li,.nav-icons{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #ffff;
+    cursor: pointer;
+}
+i{
+    font-size: 25px;
+    padding: 12px;
+}
+i:hover{
+    background-color: black;
+}
+img{
+    width: 35px;
+    padding: ;
+    cursor: pointer;
+
+}
+.logo-img{
+    padding: 0 10px;
+}
+header{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background: #0D1721;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 14.5px;
+    font-size: 18px;
+}
+.html{
+    background-color: #00AC6D;
+}
+nav li:hover{
+    background-color: black;
+}
+/* --------------navbar work end--------- */
+
+/* ---------------side scroll bar css-------- */
+
+main{
+    height: 100vh;
+}
+.scroll-bar{
+    width: 200px;
+    height: 100vh;
+    overflow-y: scroll;
+
+}
+.scroll-bar ul li{
+    padding: 5px 30px 0;
+    font-size: 20px;
+}
+h2{
+    color: #ddddddd4;
+    font-family: sans-serif;
+    padding: 10px 0 0 10px;
+}
+.scroll-bar ul li{
+    color: #ddddddd4;
+}
+/* -----------scrollbar section end----------- */
+
+/* -----------------main page css ---------------- */
+
+main{
+    display: flex;
+    font-family: sans-serif;
+}
+.html-cards{
+    /* display:flex; */
+    height: 450px;
+    display: table;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 0 0 50px;
+}
+.row{
+    display: flex;
+    /* justify-content: center; */
+    gap: 15px;
+    margin-top: 20px;
+    width: 800px;
+    height: 64px;
+}
+.row-2{
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    margin-top: 20px;
+    width: 800px;
+    height: 64px;
+}
+.cards{
+    border-radius: 5px;
+    background-color: #38444D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ddddddd4;
+    width: 257px;
+    height: 64px;
+}
+.cards:hover{
+    background-color: #0D1721;
+}
+.country,.set{
+    position: relative;
+    left: 5px;
+}
+.para{
+    width: 800px;
+    height: 100px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+h1{
+    color: #ddddddd4;
+    font-size: 1.9rem;
+}
+p{
+    color: #ddddddd4;
+    margin-top: 16px;
+    font-size: 1rem;
+}
+.flex-box{
+    margin-top: 30px;
+}
+@media only screen and (max-width:600px){
+    .flex-box{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .scroll-bar{
+        display: none;
+    }
+}
+
+
+
